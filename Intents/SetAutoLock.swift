@@ -3,7 +3,7 @@
 import AppIntents
 
 struct SetAutoLockAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Set Auto-Lock"
+	static let title: LocalizedStringResource = "设定自动锁定"
 
 	static let description = IntentDescription(
 		"Set display auto-lock duration.",
@@ -19,7 +19,7 @@ struct SetAutoLockAppIntent: AppIntent {
 	var duration: AutoLockDurationAppEnum
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("Set Auto-Lock to \(\.$duration)")
+		Summary("将自动锁定时间设定为\(\.$duration)")
 	}
 
 	func perform() async throws -> some IntentResult {
