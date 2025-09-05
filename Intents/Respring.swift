@@ -7,7 +7,7 @@ struct RespringAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Respring device.",
-		categoryName: "Device"
+		categoryName: "设备"
 	)
 
 	func perform() async throws -> some IntentResult {
