@@ -3,7 +3,7 @@
 import AppIntents
 
 struct SetRingerStateAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Set Ringer"
+	static let title: LocalizedStringResource = "设定静音模式"
 
 	static let description = IntentDescription(
 		"Set ringer switch state programmatically.",
@@ -19,11 +19,11 @@ struct SetRingerStateAppIntent: AppIntent {
 	var state: SwitchStateAppEnum
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("Set Ringer \(\.$state)")
+		Summary("将静音模式设定为\(\.$state)")
 	}
 
 	func perform() async throws -> some IntentResult & ReturnsValue<Int> {
-    	let ret = setRingerState(state.rawValue == "on" ? 1 : 0)
+    	let ret = setRingerState(state.rawValue == "on" ? 0 : 1)
         return .result(value: Int(ret))
 	}
 }
