@@ -3,7 +3,7 @@
 import AppIntents
 
 struct RespringAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Respring"
+	static let title: LocalizedStringResource = "注销"
 
 	static let description = IntentDescription(
 		"Respring device.",
