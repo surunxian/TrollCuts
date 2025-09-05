@@ -7,7 +7,7 @@ struct StartLocationSimulationAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Simulate GPS location to specified coordinate.",
-		categoryName: "Location",
+		categoryName: "定位",
 		searchKeywords: [
 			"gps",
             "locsim",
