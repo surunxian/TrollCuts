@@ -19,7 +19,7 @@ struct SetRingerStateAppIntent: AppIntent {
 	var state: SwitchStateAppEnum
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("将静音模式设定为\(\.$state)")
+		Summary("将静音模式设为\(\.$state)")
 	}
 
 	func perform() async throws -> some IntentResult & ReturnsValue<Int> {
