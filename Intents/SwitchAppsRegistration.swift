@@ -3,7 +3,7 @@
 import AppIntents
 
 struct SwitchAppsRegistrationAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Switch Apps Registration State"
+	static let title: LocalizedStringResource = "切换应用注册类别"
 
 	static let description = IntentDescription(
 		"Switch all TrollStore installed apps registration state.",
