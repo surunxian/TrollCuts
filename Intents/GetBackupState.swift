@@ -3,7 +3,7 @@
 import AppIntents
 
 struct GetBackupStateAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Get Backup State"
+	static let title: LocalizedStringResource = "获取备份状态"
 
 	static let description = IntentDescription(
 		"Get iCloud backup state.",
