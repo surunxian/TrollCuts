@@ -7,7 +7,7 @@ struct SetAutoBrightnessAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"打开或关闭设备的自动亮度调节。“自动亮度调节”也可在“设置”的“辅助功能”中启用。",
-		categoryName: "常用",
+		categoryName: "设置",
 		searchKeywords: [
 			"screen",
             "display",
