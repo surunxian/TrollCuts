@@ -6,7 +6,7 @@ struct SetAutoLockAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "设定自动锁定"
 
 	static let description = IntentDescription(
-		"Set display auto-lock duration.",
+		"更改设备的屏幕自动锁定时间。“自动锁定”也可在“设置”的“显示与亮度”中更改。",
 		categoryName: "常用",
 		searchKeywords: [
 			"screen",
