@@ -6,7 +6,7 @@ struct RebootAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "重启"
 
 	static let description = IntentDescription(
-		"重启设备。",
+		"重新启动你的设备。",
 		categoryName: "设备"
 	)
 
