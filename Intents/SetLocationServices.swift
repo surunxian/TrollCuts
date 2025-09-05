@@ -7,7 +7,7 @@ struct SetLocationServicesAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"打开或关闭设备的定位服务。",
-		categoryName: "定位",
+		categoryName: "设置",
 		searchKeywords: [
 			"gps",
 		]
