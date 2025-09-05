@@ -7,7 +7,7 @@ struct SetRingerStateAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"打开或关闭设备的静音模式。",
-		categoryName: "常用",
+		categoryName: "设置",
 		searchKeywords: [
 			"sound",
             "ringtone",
