@@ -3,7 +3,7 @@
 import AppIntents
 
 struct RebootAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Reboot"
+	static let title: LocalizedStringResource = "重启"
 
 	static let description = IntentDescription(
 		"Reboot device.",
