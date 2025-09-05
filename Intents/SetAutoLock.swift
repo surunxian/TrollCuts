@@ -19,7 +19,7 @@ struct SetAutoLockAppIntent: AppIntent {
 	var duration: AutoLockDurationAppEnum
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("将自动锁定时间设定为\(\.$duration)")
+		Summary("将自动锁定时间设为\(\.$duration)")
 	}
 
 	func perform() async throws -> some IntentResult {
