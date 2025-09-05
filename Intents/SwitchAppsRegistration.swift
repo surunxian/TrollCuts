@@ -6,7 +6,7 @@ struct SwitchAppsRegistrationAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "切换应用程序注册状态"
 
 	static let description = IntentDescription(
-		"切换所有TrollStore安装的应用程序注册状态",
+		"切换所有TrollStore安装的应用程序注册状态。",
 		categoryName: "TrollStore",
 		searchKeywords: [
 			"trollstore",
