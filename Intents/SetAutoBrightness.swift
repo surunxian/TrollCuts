@@ -3,7 +3,7 @@
 import AppIntents
 
 struct SetAutoBrightnessAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Set Auto Brightness"
+	static let title: LocalizedStringResource = "设定自动亮度调节"
 
 	static let description = IntentDescription(
 		"Set display auto brightness.",
@@ -19,7 +19,7 @@ struct SetAutoBrightnessAppIntent: AppIntent {
 	var state: SwitchStateAppEnum
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("Set Auto Brightness \(\.$state)")
+		Summary("将自动亮度调节设定为\(\.$state)")
 	}
 
 	func perform() async throws -> some IntentResult {
