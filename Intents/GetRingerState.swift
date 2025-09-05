@@ -7,7 +7,7 @@ struct GetRingerStateAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"返回关于静音模式的信息。",
-		categoryName: "常用",
+		categoryName: "设置",
 		searchKeywords: [
 			"sound",
             "ringtone",
