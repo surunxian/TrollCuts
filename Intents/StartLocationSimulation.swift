@@ -3,7 +3,7 @@
 import AppIntents
 
 struct StartLocationSimulationAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "启用定位位置模拟"
+	static let title: LocalizedStringResource = "Start Location Simulation"
 
 	static let description = IntentDescription(
 		"Simulate GPS location to specified coordinate.",
@@ -15,20 +15,20 @@ struct StartLocationSimulationAppIntent: AppIntent {
 		]
 	)
 
-	@Parameter(title: "文本")
+	@Parameter(title: "Coordinate")
 	var coordinate: String
 
-	@Parameter(title: "纬度", default: 0.0)
+	@Parameter(title: "Altitude", default: 0.0)
 	var alt: Double
 
-	@Parameter(title: "经度", default: 0.0)
+	@Parameter(title: "Horizontal Accuracy", default: 0.0)
 	var ha: Double
 
-	@Parameter(title: "垂直精度", default: 0.0)
+	@Parameter(title: "Vertical Accuracy", default: 0.0)
 	var va: Double
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("设置模拟位置名为\(\.$coordinate)"){
+		Summary("Set location to \(\.$coordinate)"){
             \.$alt
             \.$ha
             \.$va
