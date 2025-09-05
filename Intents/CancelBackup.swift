@@ -6,7 +6,7 @@ struct CancelBackupAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "取消备份"
 
 	static let description = IntentDescription(
-		"Cancel iCloud backup.",
+		"取消iCloud备份。",
 		categoryName: "备份",
 		searchKeywords: [
 			"icloud",
