@@ -3,7 +3,7 @@
 import AppIntents
 
 struct GetRingerStateAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Get Ringer State"
+	static let title: LocalizedStringResource = "获取静音模式状态"
 
 	static let description = IntentDescription(
 		"Get ringer switch state.",
