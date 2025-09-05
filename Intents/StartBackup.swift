@@ -6,7 +6,7 @@ struct StartBackupAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "开始备份"
 
 	static let description = IntentDescription(
-		"Start iCloud backup.",
+		"开始iCloud备份。",
 		categoryName: "备份",
 		searchKeywords: [
 			"icloud"
