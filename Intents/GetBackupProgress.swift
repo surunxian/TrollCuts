@@ -6,7 +6,7 @@ struct GetBackupProgressAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "获取备份进度"
 
 	static let description = IntentDescription(
-		"Get iCloud backup progress.",
+		"获取iCloud备份进度。",
 		categoryName: "备份",
 		searchKeywords: [
 			"icloud"
