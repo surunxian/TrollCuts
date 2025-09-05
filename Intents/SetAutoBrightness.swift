@@ -19,7 +19,7 @@ struct SetAutoBrightnessAppIntent: AppIntent {
 	var state: SwitchStateAppEnum
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("将自动亮度调节设定为\(\.$state)")
+		Summary("将自动亮度调节设为\(\.$state)")
 	}
 
 	func perform() async throws -> some IntentResult {
