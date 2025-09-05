@@ -20,7 +20,7 @@ struct SwitchAppsRegistrationAppIntent: AppIntent {
 	var state: AppRegistrationStateAppEnum
 
 	@Parameter(
-		title: "Ignore TrollCuts",
+		title: "忽略 TrollCuts",
 		default: true
 	)
 	var ignoreSelf: Bool
