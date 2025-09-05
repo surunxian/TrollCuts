@@ -15,20 +15,20 @@ struct StartLocationSimulationAppIntent: AppIntent {
 		]
 	)
 
-	@Parameter(title: "Coordinate")
+	@Parameter(title: "文本")
 	var coordinate: String
 
-	@Parameter(title: "Altitude", default: 0.0)
+	@Parameter(title: "纬度", default: 0.0)
 	var alt: Double
 
-	@Parameter(title: "Horizontal Accuracy", default: 0.0)
+	@Parameter(title: "经度", default: 0.0)
 	var ha: Double
 
-	@Parameter(title: "Vertical Accuracy", default: 0.0)
+	@Parameter(title: "垂直精度", default: 0.0)
 	var va: Double
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("Set location to \(\.$coordinate)"){
+		Summary("设置模拟位置名为\(\.$coordinate)"){
             \.$alt
             \.$ha
             \.$va
