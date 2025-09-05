@@ -3,7 +3,7 @@
 import AppIntents
 
 struct CancelBackupAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Cancel Backup"
+	static let title: LocalizedStringResource = "取消备份"
 
 	static let description = IntentDescription(
 		"Cancel iCloud backup.",
