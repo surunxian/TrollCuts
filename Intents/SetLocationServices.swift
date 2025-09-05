@@ -17,7 +17,7 @@ struct SetLocationServicesAppIntent: AppIntent {
 	var state: SwitchStateAppEnum
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("将定位服务设定为\(\.$state)")
+		Summary("将定位服务设为\(\.$state)")
 	}
 
 	func perform() async throws -> some IntentResult {
