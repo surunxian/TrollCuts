@@ -7,7 +7,7 @@ struct GetBackupStateAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Get iCloud backup state.",
-		categoryName: "Utility",
+		categoryName: "Backup",
 		searchKeywords: [
 			"icloud"
 		]
