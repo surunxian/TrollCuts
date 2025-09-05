@@ -6,7 +6,7 @@ struct StartLocationSimulationAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "启用虚拟定位"
 
 	static let description = IntentDescription(
-		"Simulate GPS location to specified coordinate.",
+		"将GPS位置模拟到指定坐标。",
 		categoryName: "定位",
 		searchKeywords: [
 			"gps",
