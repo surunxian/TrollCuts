@@ -3,7 +3,7 @@
 import AppIntents
 
 struct SetLocationServicesAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Set Location Services"
+	static let title: LocalizedStringResource = "设定定位服务"
 
 	static let description = IntentDescription(
 		"Set location services status.",
@@ -17,7 +17,7 @@ struct SetLocationServicesAppIntent: AppIntent {
 	var state: SwitchStateAppEnum
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("Set location services \(\.$state)")
+		Summary("将定位服务设定为\(\.$state)")
 	}
 
 	func perform() async throws -> some IntentResult {
