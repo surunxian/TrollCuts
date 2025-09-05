@@ -6,7 +6,7 @@ struct SetLocationServicesAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "设定定位服务"
 
 	static let description = IntentDescription(
-		"Set location services status.",
+		"打开或关闭设备的定位服务。",
 		categoryName: "定位",
 		searchKeywords: [
 			"gps",
