@@ -6,7 +6,7 @@ struct RespringAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "注销"
 
 	static let description = IntentDescription(
-		"Respring device.",
+		"注销设备。",
 		categoryName: "设备"
 	)
 
