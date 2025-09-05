@@ -7,7 +7,7 @@ struct SetAutoLockAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Set display auto-lock duration.",
-		categoryName: "Utility",
+		categoryName: "常用",
 		searchKeywords: [
 			"screen",
             "display",
