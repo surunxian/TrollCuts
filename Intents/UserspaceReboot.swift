@@ -7,7 +7,7 @@ struct UserspaceRebootAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Userspace reboot device.",
-		categoryName: "Device"
+		categoryName: "设备"
 	)
 
 	func perform() async throws -> some IntentResult{
