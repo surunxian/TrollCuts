@@ -63,13 +63,13 @@ enum AutoLockDurationAppEnum: String, AppEnum {
 	static let typeDisplayRepresentation: TypeDisplayRepresentation = "Auto-Lock Duration"
 
 	static let caseDisplayRepresentations: [Self: DisplayRepresentation] = [
-		.halfsec: "30 seconds",
-		.onemin: "1 minute",
-        .twomin: "2 minutes",
-		.threemin: "3 minutes",
-		.fourmin: "4 minutes",
-		.fivemin: "5 minutes",
-		.never: "Never"
+		.halfsec: "30秒钟",
+		.onemin: "1分钟",
+        .twomin: "2分钟",
+		.threemin: "3分钟",
+		.fourmin: "4分钟",
+		.fivemin: "5分钟",
+		.never: "永不"
 
 	]
 }
