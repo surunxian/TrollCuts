@@ -7,7 +7,7 @@ struct SetLocationServicesAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Set location services status.",
-		categoryName: "Location",
+		categoryName: "定位",
 		searchKeywords: [
 			"gps",
 		]
