@@ -6,7 +6,7 @@ struct UserspaceRebootAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "重启用户空间"
 
 	static let description = IntentDescription(
-		"Userspace reboot device.",
+		"重启越狱后的用户空间。",
 		categoryName: "设备"
 	)
 
