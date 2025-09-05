@@ -7,7 +7,7 @@ struct SetRingerStateAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Set ringer switch state programmatically.",
-		categoryName: "Utility",
+		categoryName: "常用",
 		searchKeywords: [
 			"sound",
             "ringtone",
