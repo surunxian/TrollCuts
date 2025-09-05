@@ -3,10 +3,10 @@
 import AppIntents
 
 struct LockAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "锁屏"
+	static let title: LocalizedStringResource = "锁定屏幕"
 
 	static let description = IntentDescription(
-		"锁定设备。",
+		"锁定此设备屏幕。",
 		categoryName: "设备"
 	)
 
