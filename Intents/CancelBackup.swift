@@ -7,7 +7,7 @@ struct CancelBackupAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Cancel iCloud backup.",
-		categoryName: "Utility",
+		categoryName: "Backup",
 		searchKeywords: [
 			"icloud",
 		]
