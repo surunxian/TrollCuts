@@ -15,7 +15,7 @@ struct StartLocationSimulationAppIntent: AppIntent {
 		]
 	)
 
-	@Parameter(title: "纬度,精度")
+	@Parameter(title: "纬度,经度")
 	var coordinate: String
 
 	@Parameter(title: "高度", default: 0.0)
@@ -28,7 +28,7 @@ struct StartLocationSimulationAppIntent: AppIntent {
 	var va: Double
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("设置模拟位置值为\(\.$coordinate)"){
+		Summary("设置模拟位置坐标为\(\.$coordinate)"){
             \.$alt
             \.$ha
             \.$va
