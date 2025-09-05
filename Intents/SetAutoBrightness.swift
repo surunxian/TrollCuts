@@ -6,7 +6,7 @@ struct SetAutoBrightnessAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "设定自动亮度调节"
 
 	static let description = IntentDescription(
-		"Set display auto brightness.",
+		"打开或关闭设备的自动亮度调节。",
 		categoryName: "常用",
 		searchKeywords: [
 			"screen",
