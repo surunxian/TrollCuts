@@ -7,7 +7,7 @@ struct GetBackupProgressAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Get iCloud backup progress.",
-		categoryName: "Utility",
+		categoryName: "Backup",
 		searchKeywords: [
 			"icloud"
 		]
