@@ -7,7 +7,7 @@ struct StartBackupAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"Start iCloud backup.",
-		categoryName: "Backup",
+		categoryName: "备份",
 		searchKeywords: [
 			"icloud"
 		]
