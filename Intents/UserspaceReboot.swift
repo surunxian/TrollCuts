@@ -3,7 +3,7 @@
 import AppIntents
 
 struct UserspaceRebootAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Userspace Reboot"
+	static let title: LocalizedStringResource = "重启用户空间"
 
 	static let description = IntentDescription(
 		"Userspace reboot device.",
