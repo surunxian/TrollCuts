@@ -7,7 +7,7 @@ struct StopLocationSimulationAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"停止模拟GPS位置。",
-		categoryName: "定位",
+		categoryName: "模拟",
 		searchKeywords: [
 			"gps",
             "locsim",
