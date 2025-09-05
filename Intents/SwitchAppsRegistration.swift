@@ -3,7 +3,7 @@
 import AppIntents
 
 struct SwitchAppsRegistrationAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "切换应用注册类别"
+	static let title: LocalizedStringResource = "切换应用程序注册状态"
 
 	static let description = IntentDescription(
 		"Switch all TrollStore installed apps registration state.",
@@ -26,7 +26,7 @@ struct SwitchAppsRegistrationAppIntent: AppIntent {
 	var ignoreSelf: Bool
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("Set Apps State to \(\.$state)"){
+		Summary("将应用程序注册状态设为\(\.$state)"){
 			\.$ignoreSelf
 		}
 	}
