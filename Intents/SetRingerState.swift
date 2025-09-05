@@ -6,7 +6,7 @@ struct SetRingerStateAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "设定静音模式"
 
 	static let description = IntentDescription(
-		"Set ringer switch state programmatically.",
+		"打开或关闭设备的静音模式。",
 		categoryName: "常用",
 		searchKeywords: [
 			"sound",
