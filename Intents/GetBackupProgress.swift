@@ -3,7 +3,7 @@
 import AppIntents
 
 struct GetBackupProgressAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "Get Backup Progress"
+	static let title: LocalizedStringResource = "获取备份进度"
 
 	static let description = IntentDescription(
 		"Get iCloud backup progress.",
