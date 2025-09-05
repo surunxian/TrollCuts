@@ -28,7 +28,7 @@ struct StartLocationSimulationAppIntent: AppIntent {
 	var va: Double
 
 	static var parameterSummary: some ParameterSummary {
-		Summary("设置虚拟坐标为\(\.$coordinate)"){
+		Summary("将虚拟坐标设为\(\.$coordinate)"){
             \.$alt
             \.$ha
             \.$va
