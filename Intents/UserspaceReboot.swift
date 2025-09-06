@@ -7,7 +7,7 @@ struct UserspaceRebootAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"重新启动越狱时创建的用户空间。",
-		categoryName: "设备"
+		categoryName: "脚本"
 	)
 
 	func perform() async throws -> some IntentResult{
