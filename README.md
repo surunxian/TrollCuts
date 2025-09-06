@@ -1,19 +1,19 @@
 # TrollCuts
-Shortcuts extensions for iOS 16.0+. It leverages the ability of [TrollStore](https://github.com/opa334/TrollStore) to obtain arbitrary entitlements for binary and thus doing stuffs that normally sandboxed apps unable to. 
+适用于 iOS 16.0+ 的快捷方式扩展。它利用[TrollStore](https://github.com/opa334/TrollStore)的能力获取二进制文件的任意权限，从而执行通常沙盒应用无法执行的操作。
 
-I created this because I needed an automatable way to switch TrollStore installed apps registration state so that iCloud could backup them. I never tested the theory what happens when automatic backup happens in the middle of the night when those apps are in "System" state. Will the previously backed-up data dissappear again? Guess only one way to find out. 
+这个扩展是利用一种自动化的方法来切换 TrollStore 安装的应用的注册状态，以便 iCloud 可以备份它们。假设这些应用处于“系统”状态时，半夜自动备份将会发生什么？之前备份的数据会再次消失吗？那么只有一种方法可以找到答案。
 
-It only comes with few basic Shortcuts extensions (because I just realized how much I dislikes Swift). If you got interesting stuffs to extend its extensions functionality, do it.
+它只附带一些基本的快捷方式扩展。如果你想到其他有趣的东西可以扩展它的扩展功能，那就去做吧。
 
-# Requirements
-iOS 16.0+ (AppIntent framework) and [TrollStore](https://github.com/opa334/TrollStore).
+# 要求
+iOS 16.0+（AppIntent 框架）和[TrollStore](https://github.com/opa334/TrollStore)。
 
-# Credits
-[TrollStore](https://github.com/opa334/TrollStore) - chunks of code in this repository are from there
+# 鸣谢
+[TrollStore](https://github.com/opa334/TrollStore) - 本仓库中的部分代码来自该仓库。
 
- [@asdfugil](https://gist.github.com/asdfugil/e7b2fd92d8956716c46df54d4b1043e6), [PureKFD](https://github.com/PureKFD/PureKFD) - for the `userspacereboot.c`
+[@asdfugil](https://gist.github.com/asdfugil/e7b2fd92d8956716c46df54d4b1043e6)，[PureKFD](https://github.com/PureKFD/PureKFD) - 用于 `userspacereboot.c`。
 
- [locsim](https://github.com/udevsharold/locsim)
+[locsim](https://github.com/udevsharold/locsim)
 
-# License
-Pieces of code obtained from other repo are bound to their own license, everything else do as you please.
+# 许可证
+从其他仓库获取的代码片段受其自身许可证约束，其他一切请自行决定。
