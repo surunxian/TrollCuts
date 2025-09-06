@@ -6,7 +6,7 @@ struct StopLocationSimulationAppIntent: AppIntent {
 	static let title: LocalizedStringResource = "停用模拟定位位置"
 
 	static let description = IntentDescription(
-		"将GPS位置恢复为真实坐标。",
+		"停止使用模拟坐标，恢复设备的真实定位信息。",
 		categoryName: "模拟",
 		searchKeywords: [
 			"gps",
