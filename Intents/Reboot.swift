@@ -7,7 +7,7 @@ struct RebootAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"重新启动你的设备。",
-		categoryName: "脚本"
+		categoryName: "设备"
 	)
 
 	func perform() async throws -> some IntentResult {
