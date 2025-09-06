@@ -7,7 +7,7 @@ struct LockAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"锁定此设备屏幕。",
-		categoryName: "设备"
+		categoryName: "脚本"
 	)
 
 	func perform() async throws -> some IntentResult {
