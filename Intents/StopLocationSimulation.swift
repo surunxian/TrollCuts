@@ -3,7 +3,7 @@
 import AppIntents
 
 struct StopLocationSimulationAppIntent: AppIntent {
-	static let title: LocalizedStringResource = "停用虚拟定位"
+	static let title: LocalizedStringResource = "停用模拟定位位置"
 
 	static let description = IntentDescription(
 		"停止模拟GPS位置。",
