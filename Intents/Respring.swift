@@ -7,7 +7,7 @@ struct RespringAppIntent: AppIntent {
 
 	static let description = IntentDescription(
 		"注销你的设备。",
-		categoryName: "设备"
+		categoryName: "脚本"
 	)
 
 	func perform() async throws -> some IntentResult {
