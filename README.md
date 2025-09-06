@@ -1,5 +1,5 @@
 # TrollCuts
-适用于 iOS16.0+ 的快捷指令扩展。它利用 [TrollStore] (https://github.com/opa334/TrollStore)的能力获取二进制文件的任意权限，从而执行通常沙盒应用无法执行的操作。
+适用于 iOS16.0+ 的快捷指令扩展。它利用 [TrollStore](https://github.com/opa334/TrollStore)的能力获取二进制文件的任意权限，从而执行通常沙盒应用无法执行的操作。
 
 这个扩展是利用一种自动化的方法来切换 TrollStore 安装的应用的注册状态，以便 iCloud 可以备份它们。假设这些应用处于“系统”状态时，半夜自动备份将会发生什么？之前备份的数据会再次消失吗？那么只有一种方法可以找到答案。
 
